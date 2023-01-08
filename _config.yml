@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Moritz Platscher
-title: Senior Machine Learning Engineer with a PhD in Physics
+title: Machine Learning Engineer | Data Scientist | Physics PhD
 # email: Your email (optional)
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -236,25 +236,46 @@ content:
           - Non-linear dynamics
 
   - title: Apart from that...
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      In my spare time I enjoy being outdoors, either for a casual run, a weekend hike or a full-fledged outdoor adventure. 
-      Currently, you will find me 2-3 times a week rowing on Lake Zurich early in the morning (see picture below for some inspiration). 
-      I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch). 
+    layout: list
+    content:
+      - layout: left
+        title: Sports
+        description: | # this will include new lines to allow paragraphs
+          In my spare time I enjoy being outdoors, either for a casual run, a weekend hike or a full-fledged outdoor adventure. 
+          Currently, you will find me 2-3 times a week rowing on Lake Zurich early in the morning (see picture below for some inspiration). 
+          I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch). 
       
-      On the more creative side I play the guitar (electric and classical), enjoy creating and consuming dishes from cuisines all over the world, and I am passionate about learning languages. 
-      So far, I've acquired basic conversational skills in
-      - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2009/10)
-      - <mark>Portuguese</mark> (which interested me due to its heavy influence on Argentinian Spanish)
-      - <mark>Japanese</mark> (currently working on Kanji <mark>JLPT N3</mark>)
+      - layout: left
+        title: Music
+        description: | # this will include new lines to allow paragraphs
+          On the more creative side I play the guitar (electric and classical). Currently, I am in a classical phase working on the following pieces:
+          - Chôro da Saudade (Agustin Barrios Mangore)
+          - Manha do Carnaval / La Chanson d'Oprhee (Luiz Bonfá / Ulli Bögershausen)
+          - Sueño (Francisco Tárrega)
+
+      - layout: left
+        title: Languages
+        description: | # this will include new lines to allow paragraphs
+          I am passionate about learning languages. So far, I've acquired basic conversational skills in
+          - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2009/10)
+          - <mark>Portuguese</mark> (which interested me due to its heavy influence on Argentinian Spanish)
+          - <mark>Japanese</mark> (currently working on Kanji <mark>JLPT N3</mark>)
+          
+          Obviously, I enjoy putting these language skills to practice while traveling. 
+          I have found that by interacting and conversing with people, the travel experience is lifted to a very different level.
+          I also enjoy creating and consuming dishes from cuisines all over the world.
+
+      - layout: left
+        title: Politics
+        description: | # this will include new lines to allow paragraphs
+          Moreover, I am deputy speaker of the [SPD Zurich](https://www.spd-zuerich.ch), a group of politically active German citizens living in Switzerland. 
+          We organize regular meet-ups for discussing current events and other relevant topics. In additions, we try to provide information for German citizens in Switzerland in regards to political participation.
+
       
-      Obviously, I enjoy putting these language skills to practice while traveling. 
-      I have found that by interacting and conversing with people, the travel experience is lifted to a very different level.
-      
-      Moreover, I am deputy speaker of the [SPD Zurich](https://www.spd-zuerich.ch), a group of politically active Germans living in Switzerland. 
-      We organize regular meet-ups for discussing current events and other relevant topics. In additions, we try to provide information for German citizens in Switzerland in regards to political participation.
-      
-      ![img](/images/rowing.jpeg "Rowing")
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          ![img](/images/rowing.jpeg "Rowing")
+
 # Footer
 footer_show_references: true
 references_title: 2023
