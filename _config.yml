@@ -6,38 +6,39 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Moritz Platscher
+title: Senior Machine Learning Engineer with a PhD in Physics
+# email: Your email (optional)
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: MoPlatscher
+github_username:  MoPl90
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: moritz-platscher-220313176
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+googlescholar_username: aG6ipTcAAAAJ&hl=en
+huggingface_username: moplat90
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,23 +50,30 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: About myself
+about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  
+  My name is Moritz and I'm a Machine Learning and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
+  Before I started working in industry, I had the wonderful opportunity to do research in elementary Particle Physics and Cosmology and later in applied Machine Learning for medical imaging. 
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I have always been fascinated by the power of statistical methods, be it the application to phase transitions in physics, or the power of Machine Learning leveraging large amounts of data.
+
+  I am fascinated by both by the mathematical models of reality, and working with all kinds of data, in which I see the link between the mathematical models and reality. 
+  Some of the topics I've worked on include (check out [Google scholar](https://scholar.google.com/citations?user=aG6ipTcAAAAJ&hl=en) for a complete list):
+    - Computer Vision & Generative ML for medical imaging
+    - Natural Language Processing for Document AI
+    - Modified gravity cosmology
+    - Gravitational Wave physics
+    - Neutrino physics
+    - Automaton-based simulations for biophysics 
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -81,39 +89,175 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Speech-to-Speech Translation Agent [2023, ongoing]
+        link:  https://github.com/MoPl90/Speech_Translator
+        link_text: A speech-to-speech translation agent
+        additional_links:
+          - title:  A speech-to-speech translation agent
+            icon: fab fa-github
+            url: https://github.com/MoPl90/Speech_Translator
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          I am currently building a speech-to-speech translation web application as an open source project. 
+          The vision is to have an easily accessible tool to translate one's language into any other language without any intermediary steps. 
+          This is a project close to my heart, as it combines my interests in languages and ML in a very practical manner.
+
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Dreambooth [2022]
+        link: https://huggingface.co/spaces/moplat90/dreambooth-training
+        link_text: Dreambooth (private)
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          I fine-tuned a Stable Diffusion v2 to generate images of myself (see About section).
+
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Swiss Immo  Index [2021, discontinued]
+        description: | # this will include new lines to allow paragraphs
+          In a team of two, we built a web-based tool, which gives an overview of housing prices and rents in Switzerland and uses ML to predict prices and rents in areas with no or little data.
+          It was based on current and historical data, which we collected and curated by <mark>web scraping</mark> in  <mark>python</mark>. 
+
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Frugally Deep [2020]
+        additional_links:
+          - title:  Frugally Deep
+            icon: fab fa-github
+            url: https://github.com/MoPl90/cosmological_tests
+        description: | # this will include new lines to allow paragraphs
+          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark>.
+
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Cosmological Tests of Modified Gravity [2019]
+        additional_links:
+          - title:  Cosmological Tests
+            icon: fab fa-github
+            url: https://github.com/MoPl90/cosmological_tests
+        description: | # this will include new lines to allow paragraphs
+          We open-sourced the code we used for a publication Monte-Carlo bla bla
+          
+        
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Senior ML Engineer
+        sub_title: Acodis AG, Winterthur, Switzerland
+        caption: 2021 - now
+        link: www.acodis.io
         quote: >
-          Short description of the company (optional)
+          Building SaaS tools to extract structured data from business documents. We 
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          I am part of the ML team at Acodis, respnsible for research and development of new ML models that enhance existing, or enable new features for our platform solutions. 
+      - layout: left
+        title: Postdoctoral Researcher
+        sub_title: Institute for Biomedical Engineering, ETH and University of Zurich
+        caption: 2019 - 2021
+        link: www.biomed.ee.ethz.ch
+        quote: > 
+          As part of the IBT, I researched generative ML models to enhance and improve the diagnostic process in brain imaging. 
+        description: | # this will include new lines to allow paragraphs
+          dasdsada
+      - layout: left
+        title: Postdoctoral Researcher
+        sub_title: MPI for Nuclear Physics, Heidelberg, Germany
+        caption: 2019
+        link: www.mpi-hd.mpg.de
+        # quote: >
+        #   As part of the IBT, I researched generative ML models to enhance and improve the diagnostic process in brain imaging. 
+        description: | # this will include new lines to allow paragraphs
+          During my past-PhD stay at MPIK, I lead a project regarding the cosmological implications of modified gravity theories. In this project, we used <mark> Monte Carlo methods</mark>
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: PhD in Physics
+        sub_title: MPI for Nuclear Physics & University of Heidelberg, Germany
+        caption: 2015 - 2019
+        # quote: >
+        #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          During my PhD studies, I worked on projects with an increasing focus on cosmology. I continued working on radiative neutrino masses, where cosmology proved to be a excellent way to test these models.
+          Moreover, the [first detection of Gravitational Waves in 2015](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102) by the LIGO/VIRGO collaboration, sparked a new interest in Gravitational Wave astronomy.
+
+          Towards the end of my PhD I started to be interested in Machine Learning, and in fact, we used a ML model to do an "intelligent" parameter scan of models and their resulting GW signals from cosmological phase transitions. 
+          This allowed us to avoid running expensive fluid dynamics simulations over the entire parameter space, and instead proposed high-signal regions to probe more extensively.
+
+          Finally, I investigated the possibility of Gravitational Waves behaving similar to neutrinos, in the (hypothetical) setting where gravitons have a mass (or GWs don't travel at the speed of light). 
+          Together with my collaborators, we showed that this would lead to unique alterations in the GW signal, see [our paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.111101)
+
+      - layout: left
+        title: Master of Science in Physics
+        sub_title: Ludwig-Maximilians Universität, Munich, Germany
+        caption: 2013 - 2015
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          In my Master classes I focussed on Particle Physics and Cosmology as applications of Statistical Physics.
+          In my thesis I studied radiative neutrino mass models (i.e. models where the neutrino mass is generated by Quantum effects), 
+          and showed that some of these models have a built-in hierarchy problem, which severely limits their viable parameter space.
+
+
+          Some courses I took are:
+          - General Relativity
+          - Quantum Field Theory I+II (QED and QCD)
+          - Cosmology
+          - Statistical pysics II
+          - Effective Quantum Field Theory
+
+
+      - layout: left
+        title: Bachelor of Science in Physics
+        sub_title: Ludwig-Maximilians Universität, Munich, Germany
+        caption: 2010 - 2013
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          During my Bachelor studies I got interested in Statistical Physics, and in particular in phase transitions and renormalization group methods.
+          I wrote my Bachelor's thesis on agent-based models of soft biological tissue, investigating if network formation of individual agents can be explained by simple automaton rules.
+          
+          Some courses I took are:
+          - Programming in <mark>Java</mark>
+          - Numerical methods in <mark>C++</mark>
+          - Statistical physics
+          - Non-linear dynamics
+
+  - title: Apart from that...
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      In my spare time I enjoy being outdoors, either for a casual run, a weekend hike or a full-fledged outdoor adventure. 
+      Currently, you will find me 2-3 times a week rowing on Lake Zurich early in the morning (see picture below for some inspiration). 
+      I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch). 
+      
+      On the more creative side I play the guitar (electric and classical), enjoy creating and consuming dishes from cuisines all over the world, and I am passionate about learning languages. 
+      So far, I've acquired basic conversational skills in
+      - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2009/10)
+      - <mark>Portuguese</mark> (which interested me due to its heavy influence on Argentinian Spanish)
+      - <mark>Japanese</mark> (currently working on Kanji <mark>JLPT N3</mark>)
+      
+      Obviously, I enjoy putting these language skills to practice while traveling. 
+      I have found that by interacting and conversing with people, the travel experience is lifted to a very different level.
+      
+      Moreover, I am deputy speaker of the [SPD Zurich](https://www.spd-zuerich.ch), a group of politically active Germans living in Switzerland. 
+      We organize regular meet-ups for discussing current events and other relevant topics. In additions, we try to provide information for German citizens in Switzerland in regards to political participation.
+      
+      ![img](/images/rowing.jpeg "Rowing")
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: 2023
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
