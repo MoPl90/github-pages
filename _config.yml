@@ -51,7 +51,7 @@ huggingface_username: moplat90
 
 # About Section
 about_title: About myself
-about_profile_image: images/me.jpg
+about_profile_image: images/me.jpeg
 about_content: | # this will include new lines to allow paragraphs
   
   My name is Moritz and I'm a Machine Learning and Software Engineer with roots in Particle Physics, currently based in Switzerland. 

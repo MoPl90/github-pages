@@ -4,3 +4,6 @@
 _site
 *.code-workspace
 vendor
+.DS_Store
+.vscode
+
