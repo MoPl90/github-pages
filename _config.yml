@@ -55,6 +55,8 @@ about_profile_image: images/me.jpeg
 about_content: | # this will include new lines to allow paragraphs
   
   My name is Moritz and I'm a Machine Learning and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
+  Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
+  In 2021, Acodis was named in the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
   Before I started working in industry, I had the wonderful opportunity to do research in elementary Particle Physics and Cosmology and later in applied Machine Learning for medical imaging. 
 
   I have always been fascinated by the power of statistical methods, be it the application to phase transitions in physics, or the power of Machine Learning leveraging large amounts of data.
@@ -158,27 +160,51 @@ content:
         caption: 2021 - now
         link: www.acodis.io
         quote: >
-          Building SaaS tools to extract structured data from business documents. We 
+          Acodis is a Swiss software company that provides a SaaS platform to help companies extract structured data from documents to enable automation and digitalization of business processes.
         description: | # this will include new lines to allow paragraphs
-          I am part of the ML team at Acodis, respnsible for research and development of new ML models that enhance existing, or enable new features for our platform solutions. 
+          I am part of the ML team at Acodis, responsible for research and development of new ML models that enhance existing, or enable new features for our platform solutions. 
+          In this role I handle the entire ML lifecycle, implementing PoCs, handling data pre-/post-processing, as well as pre-training, fine-tuning models, and deployment of models. 
+          Some functionalities I have enabled include detection and segmentation of tables, segmentation of document layout, key-value pair extraction, and generally enhanced document understanding by leveraging data augmentation and optimization techniques, such as quantization.
+
+          I have built and maintained a model server API using, which serves as an interface between our platform and GPU-backed servers, since we deploy models fully trainable, so that they can be trained as needed by the client.
+          Moreover, I am curating internal datasets for benchmarking and pre-training models on real-world data.
+
+          As in my previous roles, I have the pleasure to supervise Master students, who write their thesis at Acodis in collaboration with a Swiss University. So far, I have supervised three theses:
+          - Document Clustering via multi-modal deep learning (2022, on-going)
+          - A Visual-Interactive Tool for Information Extraction from Documents through Clustering and Data Labeling (2022)
+          - Table Detection and Structure Recognition (2021/22)
+
+          I am mostly using the following tools/languages/frameworks: <mark>python</mark> <mark>pytorch</mark> <mark>FastAPI</mark> <mark>Celery</mark> <mark>ClearML</mark> <mark>docker</mark> <mark>git</mark> <mark>PostgreSQL</mark> <mark>Apache Arrow</mark>
+          
       - layout: left
         title: Postdoctoral Researcher
         sub_title: Institute for Biomedical Engineering, ETH and University of Zurich
         caption: 2019 - 2021
         link: www.biomed.ee.ethz.ch
         quote: > 
-          As part of the IBT, I researched generative ML models to enhance and improve the diagnostic process in brain imaging. 
+          The Institute for Biomedical Engineering (IBT) is a joint institution of the ETH Zurich and the University of Zurich. 
         description: | # this will include new lines to allow paragraphs
-          dasdsada
+          As part of the "Cardiovascular Imaging" group, I was responsible for researching novel algorithmic approaches to brain lesion diagnostics.
+          My focus was on generative ML in order to leverage the scarcely available (labeled) training data. 
+          In [this published work](https://www.sciencedirect.com/science/article/pii/S1746809421008806) we show that using image-to-image translation, one can achieve SOTA results in lesion segmentation with a fraction of the training data. 
+        
+          Apart from generative ML, I worked with various Computer Vision techniques and implemented various models operating on 3D imaging data, e.g. a 3D UNet.
+
+          I supervised a number of bachelor and master students in m time at IBT.
+
+          In this role, I mostly used: <mark>python</mark> <mark>C++</mark> <mark>tensorflow</mark> <mark>docker</mark> <mark>git</mark> <mark>Azure DevOps</mark>
+          
       - layout: left
         title: Postdoctoral Researcher
         sub_title: MPI for Nuclear Physics, Heidelberg, Germany
         caption: 2019
         link: www.mpi-hd.mpg.de
         # quote: >
-        #   As part of the IBT, I researched generative ML models to enhance and improve the diagnostic process in brain imaging. 
+        
         description: | # this will include new lines to allow paragraphs
-          During my past-PhD stay at MPIK, I lead a project regarding the cosmological implications of modified gravity theories. In this project, we used <mark> Monte Carlo methods</mark>
+          During my 9-month postdoctoral stay at MPIK, I lead and coordinated a project investigating the cosmological implications of modified gravity theories. 
+          In this project, we used <mark>python</mark> implementations of <mark> Monte Carlo methods</mark> to study the effects of modified gravity models on cosmological observables using a novel combination of astrophysical datasets, and
+          we were able to derive new constraints on such scenarios.
 
   - title: Education
     layout: list
