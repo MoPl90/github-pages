@@ -20,7 +20,7 @@ darkmode: true
 
 # Social links
 twitter_username: MoPlatscher
-github_username:  MoPl90
+github_username: MoPl90
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -53,104 +53,109 @@ huggingface_username: moplat90
 about_title: About myself
 about_profile_image: images/me.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  
-  My name is Moritz and I'm a Machine Learning and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
+
+
+  I'm a Machine Learning (ML) and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
   Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
-  In 2021, Acodis was named in the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
-  Before I started working in industry, I had the wonderful opportunity to do research in elementary Particle Physics and Cosmology and later in applied Machine Learning for medical imaging. 
+  In 2021, Acodis was selected in the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
+  Before I started working in industry, I had the wonderful opportunity to do research in elementary Particle Physics and Cosmology and later in ML applied to medical imaging. 
 
-  I have always been fascinated by the power of statistical methods, be it the application to phase transitions in physics, or the power of Machine Learning leveraging large amounts of data.
-
-  I am fascinated by both by the mathematical models of reality, and working with all kinds of data, in which I see the link between the mathematical models and reality. 
+  I have always been attracted by the power of statistical methods, be it the application to phase transitions in physics, or the power of ML leveraging vast amounts of data.
+  I am fascinated by both by the mathematical models of reality, and working with data of all kinds, in which I see the link between the mathematical models and reality.
   Some of the topics I've worked on include (check out [Google scholar](https://scholar.google.com/citations?user=aG6ipTcAAAAJ&hl=en) for a complete list):
-    - Computer Vision & Generative ML for medical imaging
+    - Computer Vision & generative ML for medical imaging
     - Natural Language Processing for Document AI
     - Modified gravity cosmology
-    - Gravitational Wave physics
+    - Gravitational wave physics
     - Neutrino physics
-    - Automaton-based simulations for biophysics 
+    - Automaton-based simulations for biophysics
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+      #   - layout: left
+      #     border: none  # Value of `weak` will display a weak border below this item. # Any
+      #                   # other value (or no value) means no border will be displayed
+      #     title: Project name
+      #     link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #     link_text: Link Text
+      #     additional_links:
+      #       - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #         icon: fab fa-github
+      #         url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #       - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #         icon: fab fa-github
+      #         url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #     quote: >
+      #       Short overview of the project (optional)
+      #     description: | # this will include new lines to allow paragraphs
+      #       Description about the work on/with the project
 
       - layout: top-middle
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          none # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Speech-to-Speech Translation Agent [2023, ongoing]
-        link:  https://github.com/MoPl90/Speech_Translator
+        link: https://github.com/MoPl90/Speech_Translator
         link_text: A speech-to-speech translation agent
         additional_links:
-          - title:  A speech-to-speech translation agent
+          - title: A speech-to-speech translation agent
             icon: fab fa-github
             url: https://github.com/MoPl90/Speech_Translator
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           I am currently building a speech-to-speech translation web application as an open source project. 
-          The vision is to have an easily accessible tool to translate one's language into any other language without any intermediary steps. 
+          My vision is to provide an easily accessible tool to translate one's language into any other language without intermediary steps. 
           This is a project close to my heart, as it combines my interests in languages and ML in a very practical manner.
 
       - layout: top-middle
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          none # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Dreambooth [2022]
         link: https://huggingface.co/spaces/moplat90/dreambooth-training
         link_text: Dreambooth (private)
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          I fine-tuned a Stable Diffusion v2 to generate images of myself (see About section).
+          I fine-tuned a Stable Diffusion v2 to generate images of myself (see Intro image).
 
       - layout: top-middle
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          none # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Swiss Immo  Index [2021, discontinued]
         description: | # this will include new lines to allow paragraphs
-          In a team of two, we built a web-based tool, which gives an overview of housing prices and rents in Switzerland and uses ML to predict prices and rents in areas with no or little data.
-          It was based on current and historical data, which we collected and curated by <mark>web scraping</mark> in  <mark>python</mark>. 
+          In a team of two, we built a web-based tool, providing a global overview of housing prices and rents in Switzerland. 
+          Moreover, we used ML to predict prices and rents in areas with no or little data to provide high-resolution estimates for the Swiss housing market.
+          It was based on current and historical data, which we collected and curated by <mark>web scraping</mark> in <mark>Python</mark>.
 
       - layout: top-middle
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          none # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Frugally Deep [2020]
         additional_links:
-          - title:  Frugally Deep
+          - title: Frugally Deep
             icon: fab fa-github
-            url: https://github.com/MoPl90/cosmological_tests
+            url: https://github.com/MoPl90/frugally-deep
         description: | # this will include new lines to allow paragraphs
-          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark>.
+          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark> extending the <i>frugally-deep</i> package.
 
       - layout: top-middle
-        border: none  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          none # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Cosmological Tests of Modified Gravity [2019]
         additional_links:
-          - title:  Cosmological Tests
+          - title: Cosmological Tests
             icon: fab fa-github
             url: https://github.com/MoPl90/cosmological_tests
         description: | # this will include new lines to allow paragraphs
-          We open-sourced the code we used for a publication Monte-Carlo bla bla
-          
-        
+          We open-sourced the code of our publication on [probing alternative cosmologies through the inverse distance ladder](https://iopscience.iop.org/article/10.1088/1475-7516/2020/10/040) vias <mark>Monte Carlo</mark> methods.
+
   - title: Experience
     layout: list
     content:
@@ -174,37 +179,37 @@ content:
           - A Visual-Interactive Tool for Information Extraction from Documents through Clustering and Data Labeling (2022)
           - Table Detection and Structure Recognition (2021/22)
 
-          I am mostly using the following tools/languages/frameworks: <mark>python</mark> <mark>pytorch</mark> <mark>FastAPI</mark> <mark>Celery</mark> <mark>ClearML</mark> <mark>docker</mark> <mark>git</mark> <mark>PostgreSQL</mark> <mark>Apache Arrow</mark>
-          
+          I am mostly using the following tools/languages/frameworks: <mark>Python</mark> <mark>pytorch</mark> <mark>FastAPI</mark> <mark>Celery</mark> <mark>ClearML</mark> <mark>docker</mark> <mark>git</mark> <mark>PostgreSQL</mark> <mark>Apache Arrow</mark> <mark>Azure DevOps</mark>
+
       - layout: left
         title: Postdoctoral Researcher
-        sub_title: Institute for Biomedical Engineering, ETH and University of Zurich
+        sub_title: Institute for Biomedical Engineering, ETH and University of Zurich,  Switzerland
         caption: 2019 - 2021
         link: www.biomed.ee.ethz.ch
-        quote: > 
-          The Institute for Biomedical Engineering (IBT) is a joint institution of the ETH Zurich and the University of Zurich. 
+        # quote: >
+        #   # The Institute for Biomedical Engineering (IBT) is a joint institution of the ETH Zurich and the University of Zurich.
         description: | # this will include new lines to allow paragraphs
           As part of the "Cardiovascular Imaging" group, I was responsible for researching novel algorithmic approaches to brain lesion diagnostics.
-          My focus was on generative ML in order to leverage the scarcely available (labeled) training data. 
+          My focus was on generative ML in order to leverage the scarcely available (labeled) training data for lesion segmentation. 
           In [this published work](https://www.sciencedirect.com/science/article/pii/S1746809421008806) we show that using image-to-image translation, one can achieve SOTA results in lesion segmentation with a fraction of the training data. 
-        
+
           Apart from generative ML, I worked with various Computer Vision techniques and implemented various models operating on 3D imaging data, e.g. a 3D UNet.
 
           I supervised a number of bachelor and master students in m time at IBT.
 
-          In this role, I mostly used: <mark>python</mark> <mark>C++</mark> <mark>tensorflow</mark> <mark>docker</mark> <mark>git</mark> <mark>Azure DevOps</mark>
-          
+          In this role, I mostly used: <mark>Python</mark> <mark>C++</mark> <mark>tensorflow</mark> <mark>docker</mark> <mark>git</mark>
+
       - layout: left
         title: Postdoctoral Researcher
         sub_title: MPI for Nuclear Physics, Heidelberg, Germany
         caption: 2019
         link: www.mpi-hd.mpg.de
         # quote: >
-        
+
         description: | # this will include new lines to allow paragraphs
           During my 9-month postdoctoral stay at MPIK, I lead and coordinated a project investigating the cosmological implications of modified gravity theories. 
-          In this project, we used <mark>python</mark> implementations of <mark> Monte Carlo methods</mark> to study the effects of modified gravity models on cosmological observables using a novel combination of astrophysical datasets, and
-          we were able to derive new constraints on such scenarios.
+          In this project, we used <mark>Python</mark> implementations of <mark> Monte Carlo methods</mark> to study the effects of modified gravity models on cosmological observables using a novel combination of astrophysical datasets.
+          Thereby, we were able to derive new constraints on such scenarios.
 
   - title: Education
     layout: list
@@ -217,14 +222,16 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           During my PhD studies, I worked on projects with an increasing focus on cosmology. I continued working on radiative neutrino masses, where cosmology proved to be a excellent way to test these models.
-          Moreover, the [first detection of Gravitational Waves in 2015](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102) by the LIGO/VIRGO collaboration, sparked a new interest in Gravitational Wave astronomy.
+          Moreover, the [first detection of gravitational waves in 2015](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102) by the LIGO/VIRGO collaboration, sparked a new interest in gravitational wave astronomy - both in the community and myself.
+          I began to investigate the use of gravitational wave signals to constrain particle physics models via signatures in phase transitions in the early Universe. 
+          In [this publication](https://link.springer.com/article/10.1007/JHEP03(2020)004) we investigated the signal strength of first order phase transitions in the early universe, which involves a computationally expensive fluid dynamics simulation. 
+          In order to minimize the computational cost, I used a simple <mark>recommender system</mark> to suggest regions of high signal strength which we would then  simulate and use to train the recommender. 
+          This way we were able to provide a systematic analysis of the parameter space, which would have been infeasible otherwise.
 
-          Towards the end of my PhD I started to be interested in Machine Learning, and in fact, we used a ML model to do an "intelligent" parameter scan of models and their resulting GW signals from cosmological phase transitions. 
-          This allowed us to avoid running expensive fluid dynamics simulations over the entire parameter space, and instead proposed high-signal regions to probe more extensively.
+          Finally, I investigated the possibility of gravitational waves behaving similar to neutrinos, in the (hypothetical) setting where gravitons have a mass (or GWs don't travel at the speed of light). 
+          Together with my collaborators, I showed that this would lead to unique signatures in the GW signal, see [our paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.111101), which was published in <i>Physical Review Letters</i> and presents the first thorough discussion of this phenomenon.
 
-          Finally, I investigated the possibility of Gravitational Waves behaving similar to neutrinos, in the (hypothetical) setting where gravitons have a mass (or GWs don't travel at the speed of light). 
-          Together with my collaborators, we showed that this would lead to unique alterations in the GW signal, see [our paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.111101)
-
+          As it is customary in high-energy physics, I worked with <mark>Wolfram Mathematica</mark> for all symbolic calculations, and <mark>Python</mark> for all numerical analyses. For simulations, I had access to a <mark>SLURM cluster</mark>.
       - layout: left
         title: Master of Science in Physics
         sub_title: Ludwig-Maximilians Universität, Munich, Germany
@@ -234,16 +241,14 @@ content:
         description: | # this will include new lines to allow paragraphs
           In my Master classes I focussed on Particle Physics and Cosmology as applications of Statistical Physics.
           In my thesis I studied radiative neutrino mass models (i.e. models where the neutrino mass is generated by Quantum effects), 
-          and showed that some of these models have a built-in hierarchy problem, which severely limits their viable parameter space.
+          and showed that some of these models have a built-in [hierarchy problem](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.92.095002), which severely limits their viable parameter space.
 
-
-          Some courses I took are:
+          Some of courses I took include:
           - General Relativity
           - Quantum Field Theory I+II (QED and QCD)
           - Cosmology
-          - Statistical pysics II
+          - Statistical Physics II
           - Effective Quantum Field Theory
-
 
       - layout: left
         title: Bachelor of Science in Physics
@@ -253,8 +258,8 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           During my Bachelor studies I got interested in Statistical Physics, and in particular in phase transitions and renormalization group methods.
-          I wrote my Bachelor's thesis on agent-based models of soft biological tissue, investigating if network formation of individual agents can be explained by simple automaton rules.
-          
+          I wrote my Bachelor's thesis on agent-based models of soft biological tissue, investigating if network formation of individual agents can be simulated by simple automaton rules, which I implemented in <mark>C++</mark>.
+
           Some courses I took are:
           - Programming in <mark>Java</mark>
           - Numerical methods in <mark>C++</mark>
@@ -269,8 +274,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           In my spare time I enjoy being outdoors, either for a casual run, a weekend hike or a full-fledged outdoor adventure. 
           Currently, you will find me 2-3 times a week rowing on Lake Zurich early in the morning (see picture below for some inspiration). 
-          I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch). 
-      
+          I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch).
+
       - layout: left
         title: Music
         description: | # this will include new lines to allow paragraphs
@@ -283,10 +288,10 @@ content:
         title: Languages
         description: | # this will include new lines to allow paragraphs
           I am passionate about learning languages. So far, I've acquired basic conversational skills in
-          - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2009/10)
+          - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2010)
           - <mark>Portuguese</mark> (which interested me due to its heavy influence on Argentinian Spanish)
           - <mark>Japanese</mark> (currently working on Kanji <mark>JLPT N3</mark>)
-          
+
           Obviously, I enjoy putting these language skills to practice while traveling. 
           I have found that by interacting and conversing with people, the travel experience is lifted to a very different level.
           I also enjoy creating and consuming dishes from cuisines all over the world.
@@ -297,7 +302,6 @@ content:
           Moreover, I am deputy speaker of the [SPD Zurich](https://www.spd-zuerich.ch), a group of politically active German citizens living in Switzerland. 
           We organize regular meet-ups for discussing current events and other relevant topics. In additions, we try to provide information for German citizens in Switzerland in regards to political participation.
 
-      
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
           ![img](/images/rowing.jpeg "Rowing")
@@ -315,17 +319,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
