@@ -55,15 +55,17 @@ about_profile_image: images/me.jpeg
 about_content: | # this will include new lines to allow paragraphs
 
 
+
+
   I'm a Machine Learning (ML) and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
   Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
-  In 2021, Acodis was selected in the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
-  Before I started working in industry, I had the wonderful opportunity to do research in elementary Particle Physics and Cosmology and later in ML applied to medical imaging. 
+  In 2021, Acodis was named as one of the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
+  Before I started working in industry, I had the wonderful opportunity to do research in elementary particle physics and cosmology and later in applied ML for medical imaging. 
 
-  I have always been attracted by the power of statistical methods, be it the application to phase transitions in physics, or the power of ML leveraging vast amounts of data.
-  I am fascinated by both by the mathematical models of reality, and working with data of all kinds, in which I see the link between the mathematical models and reality.
+  I have always been attracted by the power of statistical methods, be it the application to phase transitions in physics, or applying complex ML models to vast amounts of data.
+  I am fascinated by both by the mathematical models of reality used in physics due to their interpretability, and the data-centric approach of ML leveraging vast amounts of real-world data.
   Some of the topics I've worked on include (check out [Google scholar](https://scholar.google.com/citations?user=aG6ipTcAAAAJ&hl=en) for a complete list):
-    - Computer Vision & generative ML for medical imaging
+    - Computer vision & generative ML for medical imaging
     - Natural Language Processing for Document AI
     - Modified gravity cosmology
     - Gravitational wave physics
@@ -106,9 +108,9 @@ content:
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          I am currently building a speech-to-speech translation web application as an open source project. 
-          My vision is to provide an easily accessible tool to translate one's language into any other language without intermediary steps. 
-          This is a project close to my heart, as it combines my interests in languages and ML in a very practical manner.
+          I am building an open-source speech-based translation web application in order to enable direct translation of spoken language from audio to audio. 
+          To this end, I have incorporated a mixture of API calls to large language models (OpenAI's GPT-3), pre-trained models (OpenAI's Whisper), 
+          and customized and fine-tuned models for text-to-speech generation into a <mark>RestAPI server</mark> which is called from a <mark>React.js</mark> based web frontend.
 
       - layout: top-middle
         border:
@@ -120,7 +122,8 @@ content:
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          I fine-tuned a Stable Diffusion v2 to generate images of myself (see Intro image).
+          I fine-tuned a Stable Diffusion v2 model to generate images of myself from text prompts (see intro image). 
+          I used this project to get familiar with diffusion models and using <mark>Hugging Face</mark> for training and inference.
 
       - layout: top-middle
         border:
@@ -128,9 +131,9 @@ content:
           # other value (or no value) means no border will be displayed
         title: Swiss Immo  Index [2021, discontinued]
         description: | # this will include new lines to allow paragraphs
-          In a team of two, we built a web-based tool, providing a global overview of housing prices and rents in Switzerland. 
+          In a team of two, we built a web-based tool, providing an overview of housing prices and rents in Switzerland. 
           Moreover, we used ML to predict prices and rents in areas with no or little data to provide high-resolution estimates for the Swiss housing market.
-          It was based on current and historical data, which we collected and curated by <mark>web scraping</mark> in <mark>Python</mark>.
+          We collected and curated current and historical data by means of automatic <mark>web scraping</mark> in <mark>Python</mark>.
 
       - layout: top-middle
         border:
@@ -142,7 +145,7 @@ content:
             icon: fab fa-github
             url: https://github.com/MoPl90/frugally-deep
         description: | # this will include new lines to allow paragraphs
-          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark> extending the <i>frugally-deep</i> package.
+          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark> extending the popular <i>frugally-deep</i> library.
 
       - layout: top-middle
         border:
@@ -154,7 +157,7 @@ content:
             icon: fab fa-github
             url: https://github.com/MoPl90/cosmological_tests
         description: | # this will include new lines to allow paragraphs
-          We open-sourced the code of our publication on [probing alternative cosmologies through the inverse distance ladder](https://iopscience.iop.org/article/10.1088/1475-7516/2020/10/040) vias <mark>Monte Carlo</mark> methods.
+          Open source code of our publication on [probing alternative cosmologies through the inverse distance ladder](https://iopscience.iop.org/article/10.1088/1475-7516/2020/10/040) via <mark>Monte Carlo</mark> methods.
 
   - title: Experience
     layout: list
@@ -179,7 +182,7 @@ content:
           - A Visual-Interactive Tool for Information Extraction from Documents through Clustering and Data Labeling (2022)
           - Table Detection and Structure Recognition (2021/22)
 
-          I am mostly using the following tools/languages/frameworks: <mark>Python</mark> <mark>pytorch</mark> <mark>FastAPI</mark> <mark>Celery</mark> <mark>ClearML</mark> <mark>docker</mark> <mark>git</mark> <mark>PostgreSQL</mark> <mark>Apache Arrow</mark> <mark>Azure DevOps</mark>
+          I am mostly using the following tech stack: <mark>Python</mark> <mark>Pytorch</mark> <mark>FastAPI</mark> <mark>celery</mark> <mark>ClearML</mark> <mark>docker</mark> <mark>git</mark> <mark>PostgreSQL</mark> <mark>Apache Arrow</mark> <mark>Azure DevOps</mark>
 
       - layout: left
         title: Postdoctoral Researcher
@@ -189,13 +192,11 @@ content:
         # quote: >
         #   # The Institute for Biomedical Engineering (IBT) is a joint institution of the ETH Zurich and the University of Zurich.
         description: | # this will include new lines to allow paragraphs
-          As part of the "Cardiovascular Imaging" group, I was responsible for researching novel algorithmic approaches to brain lesion diagnostics.
+          As a researcher at the IBT, I was responsible for researching novel algorithmic approaches to brain lesion diagnostics.
           My focus was on generative ML in order to leverage the scarcely available (labeled) training data for lesion segmentation. 
-          In [this published work](https://www.sciencedirect.com/science/article/pii/S1746809421008806) we show that using image-to-image translation, one can achieve SOTA results in lesion segmentation with a fraction of the training data. 
+          In [this published work](https://www.sciencedirect.com/science/article/pii/S1746809421008806) we show that by using image-to-image translation, one can achieve SOTA results in lesion segmentation with a fraction of the training data. 
 
-          Apart from generative ML, I worked with various Computer Vision techniques and implemented various models operating on 3D imaging data, e.g. a 3D UNet.
-
-          I supervised a number of bachelor and master students in m time at IBT.
+          Apart from generative ML, I worked with various computer vision techniques and implemented various models operating on 3D imaging data, such as a 3D UNet. I also supervised a number of bachelor and master students in m time at IBT.
 
           In this role, I mostly used: <mark>Python</mark> <mark>C++</mark> <mark>tensorflow</mark> <mark>docker</mark> <mark>git</mark>
 
@@ -209,7 +210,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my 9-month postdoctoral stay at MPIK, I lead and coordinated a project investigating the cosmological implications of modified gravity theories. 
           In this project, we used <mark>Python</mark> implementations of <mark> Monte Carlo methods</mark> to study the effects of modified gravity models on cosmological observables using a novel combination of astrophysical datasets.
-          Thereby, we were able to derive new constraints on such scenarios.
+          Thereby, we were able to derive [new constraints on such scenarios.](https://iopscience.iop.org/article/10.1088/1475-7516/2020/10/040)
 
   - title: Education
     layout: list
