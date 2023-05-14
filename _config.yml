@@ -57,7 +57,13 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 
-  I'm a Machine Learning (ML) and Software Engineer with roots in Particle Physics, currently based in Switzerland. 
+
+
+
+
+
+
+  I'm a Machine Learning (ML) and Software Engineer with roots in particle physics, currently based in Switzerland. 
   Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
   In 2021, Acodis was named as one of the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
   Before I started working in industry, I had the wonderful opportunity to do research in elementary particle physics and cosmology and later in applied ML for medical imaging. 
@@ -273,8 +279,8 @@ content:
       - layout: left
         title: Sports
         description: | # this will include new lines to allow paragraphs
-          In my spare time I enjoy being outdoors, either for a casual run, a weekend hike or a full-fledged outdoor adventure. 
-          Currently, you will find me 2-3 times a week rowing on Lake Zurich early in the morning (see picture below for some inspiration). 
+          In my spare time I enjoy being outdoors, either for a casual run, a weekend hike, or a full-fledged outdoor adventure. 
+          Currently, you will find me rowing on Lake Zurich 2-3 times a week early in the morning (see picture below for some inspiration). 
           I am an active member of [Ruderclub Zürich](https://www.rcz.ch) and the [Zurich Penguins](https://www.zurichpenguins.ch).
 
       - layout: left
@@ -288,20 +294,20 @@ content:
       - layout: left
         title: Languages
         description: | # this will include new lines to allow paragraphs
-          I am passionate about learning languages. So far, I've acquired basic conversational skills in
+          I am passionate about learning languages. So far, I've acquired conversational skills in
           - <mark>Spanish</mark> (which I refined during a 6 month stay in Argentina in 2010)
           - <mark>Portuguese</mark> (which interested me due to its heavy influence on Argentinian Spanish)
           - <mark>Japanese</mark> (currently working on Kanji <mark>JLPT N3</mark>)
 
           Obviously, I enjoy putting these language skills to practice while traveling. 
           I have found that by interacting and conversing with people, the travel experience is lifted to a very different level.
-          I also enjoy creating and consuming dishes from cuisines all over the world.
+          I also enjoy creating and consuming dishes from all around the world.
 
       - layout: left
         title: Politics
         description: | # this will include new lines to allow paragraphs
           Moreover, I am deputy speaker of the [SPD Zurich](https://www.spd-zuerich.ch), a group of politically active German citizens living in Switzerland. 
-          We organize regular meet-ups for discussing current events and other relevant topics. In additions, we try to provide information for German citizens in Switzerland in regards to political participation.
+          We organize regular meet-ups for discussing current events and other relevant topics. In addition, we try to provide information for German citizens in Switzerland in regards to political participation.
 
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
