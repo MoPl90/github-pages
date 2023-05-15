@@ -98,6 +98,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 
+
   I'm a Machine Learning (ML) and Software Engineer with roots in particle physics, currently based in Switzerland. 
   Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
   In 2021, Acodis was named as one of the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
@@ -350,7 +351,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: 2023
+references_title: © 2023
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
