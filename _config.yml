@@ -63,6 +63,12 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 
+
+
+
+
+
+
   I'm a Machine Learning (ML) and Software Engineer with roots in particle physics, currently based in Switzerland. 
   Presently, I work as a ML Engineer in the Swiss AI startup Acodis, which is dedicated to transforming physical documents into structured and machine-readable data to enable the digital transformation of businesses.  
   In 2021, Acodis was named as one of the [Forbes 30 most innovative AI startups in the DACH region](https://www.forbes.at/artikel/forbes-ki-30-dach-2021-die-liste.html).
@@ -104,9 +110,9 @@ content:
         border:
           none # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
-        title: Speech-to-Speech Translation Agent [2023, ongoing]
+        title: Open-Source Speech-to-Speech Translation Agent [2023, ongoing]
         link: https://github.com/MoPl90/Speech_Translator
-        link_text: A speech-to-speech translation agent
+        link_text: AI speech translation agent
         additional_links:
           - title: A speech-to-speech translation agent
             icon: fab fa-github
@@ -114,9 +120,8 @@ content:
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          I am building an open-source speech-based translation web application in order to enable direct translation of spoken language from audio to audio. 
-          To this end, I have incorporated a mixture of API calls to large language models (OpenAI's GPT-3), pre-trained models (OpenAI's Whisper), 
-          and customized and fine-tuned models for text-to-speech generation into a <mark>RestAPI server</mark> which is called from a <mark>React.js</mark> based web frontend.
+          I am building an open-source speech-based translation web application in order to enable direct translation of spoken language from audio to audio using open resources.
+          This project incorporates a <mark>REST-API</mark> model server hosting a variety of trainable and pre-trained models, as well as a user-friendly web front-end.
 
       - layout: top-middle
         border:
@@ -129,7 +134,7 @@ content:
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           I fine-tuned a Stable Diffusion v2 model to generate images of myself from text prompts (see intro image). 
-          I used this project to get familiar with diffusion models and using <mark>Hugging Face</mark> for training and inference.
+          I used this project to familiarize myself with diffusion models and using the <mark>Hugging Face</mark> ecosystem for hosted training and inference.
 
       - layout: top-middle
         border:
@@ -139,7 +144,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           In a team of two, we built a web-based tool, providing an overview of housing prices and rents in Switzerland. 
           Moreover, we used ML to predict prices and rents in areas with no or little data to provide high-resolution estimates for the Swiss housing market.
-          We collected and curated current and historical data by means of automatic <mark>web scraping</mark> in <mark>Python</mark>.
+          We collected and curated current and historical data by means of automatic <mark>web scraping</mark>.
 
       - layout: top-middle
         border:
@@ -151,7 +156,7 @@ content:
             icon: fab fa-github
             url: https://github.com/MoPl90/frugally-deep
         description: | # this will include new lines to allow paragraphs
-          I implemented 3D convolutions and normalization layers for building a 3D U-Net in <mark>C++</mark> extending the popular <i>frugally-deep</i> library.
+          I implemented 3D convolutions and normalization layers in <mark>C++</mark> extending the popular <i>frugally-deep</i> library.
 
       - layout: top-middle
         border:
